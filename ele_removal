@@ -1,0 +1,7 @@
+lst=list(map(int,input().split()))
+a=sorted(lst)
+d=(a)[::-1]
+c=0
+for i in range(len(d)):
+    c=c+d[i]*(i+1)
+print(c)
